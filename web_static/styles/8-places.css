@@ -38,20 +38,7 @@ article h2 {
 }
 .number_rooms, .number_bathrooms, .max_guest {
 	width: 100px;
-}
-.number_rooms {
 	background-image: url('images/icon_bed.png');
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: top;
-}
-.number_bathrooms {
-	background-image: url('images/icon_bath.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-}
-.max_guest {
-	background-image: url('images/');
 }
 .user {
 	margin-top: 1rem;
