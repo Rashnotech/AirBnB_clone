@@ -47,6 +47,7 @@
 	border: 1px solid #DDD;
 	border-radius: 4px;
 	background-color: #FAFAFA;
+	z-index: 100;
 	list-style-type: none;
 	padding: 1rem;
 	left: 0;
