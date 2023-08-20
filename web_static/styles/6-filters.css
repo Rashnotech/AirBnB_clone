@@ -23,7 +23,7 @@
 {
 	opacity: 90%;
 }
-.locations, .amenities {
+section > .locations, section > .amenities {
 	height: 100%;
 	width: 25%;
 	line-height: 0rem;
@@ -31,13 +31,13 @@
 	position: relative;
 	float: left;
 }
-.locations {
+section > .locations {
 	border-right: 1px solid #DDD;
 }	
-.amenities h3, .locations h3 {
+section > .amenities h3, section > .locations h3 {
 	font-weight: 600;
 }
-.amenities h4, .locations h4 {
+section > .amenities h4, section > .locations h4 {
 	font-weight: 400;
 	font-size: 14px;
 }
@@ -65,7 +65,7 @@
 .locations:hover > .popover {
 	display: block;
 }
-.amenities:hover > .popover {
+section > .amenities:hover > .popover {
 	display: block;
 }
 
