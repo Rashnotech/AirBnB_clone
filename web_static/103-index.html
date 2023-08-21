@@ -12,35 +12,35 @@
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 	</head>
 	<body>
-		<header>
+		<header aria-label="hbnb">
 			<img src="images/logo.png" alt="hbnb">
 		</header>
 		<div class="container">
 			<section class="filters" aria-label="Filters">
-				<div class="locations">
-					<h3 aria-label="States">States</h3>
-					<h4 >California, Arizona..</h4>
-					<ul class="popover" aria-label="state options">
+				<div class="locations" aria-haspopup="menu" aria-label="locations">
+					<h3>States</h3>
+					<h4>California, Arizona..</h4>
+					<ul class="popover" aria-label="State and Cities">
 						<li><h2>Arizona:</h2></li>
-						<li>
+						<li aria-label="Cities">
 							<p>page</p>
 							<p>Page2</p>
 						</li>
 						<li><h2>California:</h2></li>
-						<li>
-							<p>San Francisco</p>
-							<p>Los Altos</p>
+						<li aria-label="Cities">
+							<p aria-label="San Francisco">San Francisco</p>
+							<p aria-label="Los Altos">Los Altos</p>
 						</li>
 					</ul>
 				</div>
-				<div class="amenities">
+				<div class="amenities" aria-haspopup="menu" aria-label="Amenities">
 					<h3>Amenities</h3>
 					<h4>Internet, Kitchen...</h4>
-					<ul class="popover">
-						<li>Internet</li>
-						<li>TV</li>
-						<li>Kitchen</li>
-						<li>Iron</li>
+					<ul class="popover" aria-label="amenities list">
+						<li aria-label="Internet">Internet</li>
+						<li aria-label="TV">TV</li>
+						<li aria-label="Kitchen">Kitchen</li>
+						<li aria-label="Iron">Iron</li>
 					</ul>
 				</div>
 				<button type="button" aria-label="search">Search</button>
@@ -73,66 +73,66 @@
 						It locates at the center of Shanghai and next to subway line 1. 
 						1 stop to People Square, 2 stops to Bund, 3 stops to Jingan Temple.
 					</div>
-					<div class="amenities">
+					<div class="amenities" aria-label="Amenities">
 						<h2>Amenities</h2>
-						<ul aria>
-							<li class="tv">TV</li>
-							<li class="wifi">Wifi</li>
-							<li class="pets">Pets friendly</li>
+						<ul aria-label="Amenities available">
+							<li aria-label="TV"> <img src="images/icon_tv.png" alt="TV"> TV</li>
+							<li aria-label="Wifi"> <img src="images/icon_wifi.png" alt="Wifi"> Wifi</li>
+							<li aria-label="Pets"> <img src="images/icon_pets.png" alt="Pets"> Pets friendly</li>
 						</ul>
 					</div>
 					<div class="reviews">
 						<h2>2 Reviews</h2>
-						<ul>
-							<li>
+						<ul aria-label="Reviews">
+							<li aria-label="Customer Review">
 								<h3>From  Bob Dylan the 27th January 2017</h3>
-								<p>Runshi is an epic host. Nothing more I can say. 5 star!</p>
+								<p aria-label="Comment">Runshi is an epic host. Nothing more I can say. 5 star!</p>
 							</li>
-							<li>
+							<li aria-label="Customer Review">
 								<h3>From Connor the 4th January 2017 </h3>
 										<p>Highly recommended!</p>
 							</li>
 						</ul>
 					</div>
 				</article>
-				<article>
+				<article aria-label="Apartments">
 					<h2>Tiny house </h2>
-					<div class="price_by_night">
+					<div class="price_by_night" aria-label="Prices Per night">
                                                 $65
                                         </div>
-                                        <div class="information">
+                                        <div class="information" aria-label="Apartment Information">
                                                 <div class="max_guest">
-                                                        <p>4 Guests</p>
+                                                        <p aria-label="Maximum guest">4 Guests</p>
                                                 </div>
                                                 <div class="number_rooms">
-                                                        <p>2 Bedroom</p>
+                                                        <p aria-label="Number of Rooms">2 Bedroom</p>
                                                 </div>
                                                 <div class="number_bathrooms">
-                                                        <p>1 Bathroom</p>
+                                                        <p aria-label="Number of Bathroom">1 Bathroom</p>
                                                 </div>
                                         </div>
                                         <div class="user">
-                                                <b>Owner: </b> Adrienne
+                                                <strong>Owner: </strong> Adrienne
                                         </div>
-                                        <div class="description">
+                                        <div class="description" aria-label="Apartment Description">
                                                 Our place is a private, affordable stand-alone guest house centrally located just minutes to French Quarters,
 						downtown, the Fair Grounds(Jazz Fest) and City Park. The guest house is a quaint, 400 square ft. with a full
 						bath, mini kitchen & living room. The extra high ceilings make the house feel more spacious. The sofa convert
 						s to a bed also. We have a hand maade counter area that adds character to the room and a great porch/deck to
 						relax on and have a glass of Merlot.
                                         </div>
-					 <div class="amenities">
+					 <div class="amenities" aria-label="Amenities">
                                                 <h2>Amenities</h2>
-                                                <ul>
-							<li class="pets">Pets friendly</li>
+                                                <ul aria-label="Amenities Available">
+                                                        <li aria-label="Pets"> <img src="images/icon_pets.png" alt="Pets"> Pets friendly</li>
                                                 </ul>
                                         </div>
                                         <div class="reviews">
                                                 <h2>2 Reviews</h2>
-                                                <ul>
-                                                        <li>
+                                                <ul aria-label="Reviews">
+                                                        <li aria-label="Customer Review">
                                                                 <h3>From Max the 27th January 2017</h3>
-                                                                <p>Fantastic place. It was clean, Adrienne was great (even though we did not meet in person)
+                                                                <p aria-label="Comment">Fantastic place. It was clean, Adrienne was great (even though we did not meet in person)
 								and everything went super smooth. Location is also great if you like running and something a
 								bit more quiet. I would suggest a car or take into consideration that you might have to Uber
 								into the city from the location. Overall, would recommend the place anytime.</p>
@@ -141,43 +141,43 @@
                                         </div>
 
 				</article>
-				<article>
+				<article aria-label="Apartments">
 					<h2>A suite</h2>
-					<div class="price_by_night">
+					<div class="price_by_night" aria-label="Prices per night">
                                                 $190
                                         </div>
-                                        <div class="information">
+                                        <div class="information" aria-label="Apartment Information">
                                                 <div class="max_guest">
-                                                        <p>6 Guests</p>
+                                                        <p aria-label="Maximum guest">6 Guests</p>
                                                 </div>
                                                 <div class="number_rooms">
-                                                        <p>3 Bedroom</p>
+                                                        <p aria-label="Number of Rooms">3 Bedroom</p>
                                                 </div>
                                                 <div class="number_bathrooms">
-                                                        <p>2 Bathroom</p>
+                                                        <p aria-label="Number of Bathroom">2 Bathroom</p>
                                                 </div>
                                         </div>
-                                        <div class="user">
-                                                <b>Owner: </b> Bill Zuckerberg
+                                        <div class="user" aria-label="Owner's Name">
+                                                <strong>Owner: </strong> Bill Zuckerberg
                                         </div>
-                                        <div class="description">
+                                        <div class="description" aria-label="Apartment Description">
                                                 Newly renovated spacious 2 bedrooms 2 baths in cozy Gastown style unit with the views of North Shore mountain
 						s. Woodward's landmark building situated at the historic heart of Vancouver.
                                         </div>
-					 <div class="amenities">
+					 <div class="amenities" aria-label="Amenities">
                                                 <h2>Amenities</h2>
-                                                <ul>
-							<li class="tv">TV</li>
-							<li class="wifi">Wifi</li>
-                                                        <li class="pets">Pets friendly</li>
+                                                <ul aria-label="Amenities available">
+							<li aria-label="TV"> <img src="images/icon_tv.png" alt="TV"> TV</li>
+                                                        <li aria-label="Wifi"> <img src="images/icon_wifi.png" alt="Wifi"> Wifi</li>
+                                                        <li aria-label="Pets"> <img src="images/icon_pets.png" alt="Pets"> Pets friendly</li>
                                                 </ul>
                                         </div>
                                         <div class="reviews">
                                                 <h2>1 Review</h2>
-                                                <ul>
-                                                        <li>
+                                                <ul aria-label="Reviews">
+                                                        <li aria-label="Customer Review">
                                                                 <h3>From Max the 27th January 2017</h3>
-                                                                <p>Fantastic place. It was clean, Adrienne was great (even though we did not meet in person)
+                                                                <p aria-label="Comment">Fantastic place. It was clean, Adrienne was great (even though we did not meet in person)
 								and everything went super smooth. Location is also great if you like running and something a
 								bit more quiet. I would suggest a car or take into consideration that you might have to Uber
 								into the city from the location. Overall, would recommend the place anytime.</p>
@@ -186,42 +186,42 @@
                                         </div>
 
 				</article>
-				<article>
+				<article aria-label="Apartments">
 					<h2> A Duplex </h2>
-					 <div class="price_by_night">
+					 <div class="price_by_night" aria-label="Prices per night">
                                                 $150
                                         </div>
-                                        <div class="information">
+                                        <div class="information" aria-label="Apartment Information">
                                                 <div class="max_guest">
-                                                        <p>4 Guests</p>
+                                                        <p aria-label="Maximum guest">4 Guests</p>
                                                 </div>
                                                 <div class="number_rooms">
-                                                        <p>3 Bedroom</p>
+                                                        <p aria-label="Number of Rooms">3 Bedroom</p>
                                                 </div>
                                                 <div class="number_bathrooms">
-                                                        <p>2 Bathroom</p>
+                                                        <p aria-label="Number of Bathroom">2 Bathroom</p>
                                                 </div>
                                         </div>
-                                        <div class="user">
-                                                <b>Owner: </b> Johnny Drill
+                                        <div class="user" aria-label="Owner's Name">
+                                                <strong>Owner: </strong> Johnny Drill
                                         </div>
-                                        <div class="description">
+                                        <div class="description" aria-label="Apartment Description">
                                                 Newly renovated spacious 2 bedrooms 2 baths in cozy Gastown style unit with the views of 
 						North Shore mountains. Woodward's landmark building situated at the historic heart of Vancouver.
                                         </div>
 					 <div class="amenities">
                                                 <h2>Amenities</h2>
-                                                <ul>
-							<li class="wifi">Wifi</li>
-                                                        <li class="pets">Pets friendly</li>
+                                                <ul aria-label="Amenities Available">
+                                                        <li aria-label="Wifi"> <img src="images/icon_wifi.png" alt="Wifi"> Wifi</li>
+                                                        <li aria-label="Pets"> <img src="images/icon_pets.png" alt="Pets"> Pets friendly</li>
                                                 </ul>
                                         </div>
                                         <div class="reviews">
                                                 <h2>1 Review</h2>
-                                                <ul>
-                                                        <li>
+                                                <ul aria-label="Reviews">
+                                                        <li aria-label="Customer Review">
                                                                 <h3>From Max the 27th January 2017</h3>
-                                                                <p>Fantastic place. It was clean, Adrienne was great (even though we did not meet in person)
+                                                                <p aria-label="Comment">Fantastic place. It was clean, Adrienne was great (even though we did not meet in person)
 								and everything went super smooth. Location is also great if you like running and something a
 								bit more quiet. I would suggest a car or take into consideration that you might have to Uber
 								into the city from the location. Overall, would recommend the place anytime.</p>
@@ -233,8 +233,8 @@
 				</div>
 			</section>
 		</div>
-		<footer>
-			<p> Best School </p>
+		<footer aria-label="Footer">
+			<p aria-label="Best School"> Best School </p>
 		</footer>
 	</body>
 </html>

@@ -79,26 +79,7 @@ article > .amenities ul, article > .reviews ul {
 	padding: 0px;
 }
 article > .amenities ul li {
-	padding-left: 2.2rem;
 	margin-top: 10px;
-}
-article > .amenities .tv {
-	background-image: url('../images/icon_tv.png');
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: contain;
-}
-article > .amenities .pets {
-	background-image: url('../images/icon_pets.png');
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: left;
-}
-article > .amenities .wifi {
-	background-image: url('../images/icon_wifi.png');
-	background-size: contain;
-	background-position: left;
-	background-repeat: no-repeat;
 }
 article > .reviews h3 {
 	font-size: 14px;
@@ -106,4 +87,10 @@ article > .reviews h3 {
 article > .reviews p {
 	font-size: 12px;
 }
-
+article > .amenities ul li img {
+	display: inline-block;
+	width: 10%;
+	height: 10%;
+	vertical-align: middle;
+	margin-right: 2rem;
+}
