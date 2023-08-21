@@ -3,23 +3,24 @@
 	<head>
 		<meta charset="utf-8">
 		<title>AirBnB Clone </title>
-		<link rel="stylesheet" href="styles/102-common.css">
-		<link rel="stylesheet" href="styles/102-header.css">
-		<link rel="stylesheet" href="styles/102-footer.css">
-		<link rel="stylesheet" href="styles/102-filters.css">
-		<link rel="stylesheet" href="styles/102-places.css">
+		<link rel="stylesheet" href="styles/103-common.css">
+		<link rel="stylesheet" href="styles/103-header.css">
+		<link rel="stylesheet" href="styles/103-footer.css">
+		<link rel="stylesheet" href="styles/103-filters.css">
+		<link rel="stylesheet" href="styles/103-places.css">
 		<link rel="icon" href="images/icon.png">
 		<meta name="viewport" content="width=device-width,initial-scale=1">
 	</head>
 	<body>
 		<header>
+			<img src="images/logo.png" alt="hbnb">
 		</header>
 		<div class="container">
-			<section class="filters">
+			<section class="filters" aria-label="Filters">
 				<div class="locations">
-					<h3>States</h3>
-					<h4>California, Arizona..</h4>
-					<ul class="popover">
+					<h3 aria-label="States">States</h3>
+					<h4 >California, Arizona..</h4>
+					<ul class="popover" aria-label="state options">
 						<li><h2>Arizona:</h2></li>
 						<li>
 							<p>page</p>
@@ -42,31 +43,31 @@
 						<li>Iron</li>
 					</ul>
 				</div>
-				<button>Search</button>
+				<button type="button" aria-label="search">Search</button>
 			</section>
-			<section class="places">
+			<section class="places" aria-label="Places">
 				<h1>Place</h1>
 				<div>
-				<article>
+				<article aria-label="Apartments">
 					<h2>My Home</h2>
-					<div class="price_by_night">
+					<div class="price_by_night" aria-label="Prices per night">
 						$80
 					</div>
-					<div class="information">
+					<div class="information" aria-label="Apartment Information">
 						<div class="max_guest">
-							<p>2 Guests</p>
+							<p aria-label="Maximum guest">2 Guests</p>
 						</div>
 						<div class="number_rooms">
-							<p>1 Bedroom</p>
+							<p aria-label="Number of Rooms">1 Bedroom</p>
 						</div>
 						<div class="number_bathrooms">
-							<p>1 Bathroom</p>
+							<p aria-label="Number of Bathroom">1 Bathroom</p>
 						</div>
 					</div>
-					<div class="user">
-						<b>Owner: </b> John Lennon
+					<div class="user" aria-label="Owner Name">
+						<strong>Owner: </strong> John Lennon
 					</div>
-					<div class="description">
+					<div class="description" aria-label="Apartment Description">
 						This is a lovely 1 bedroom adnd 
 						1 bathroom apartment that can accomodate 2 people. 
 						It locates at the center of Shanghai and next to subway line 1. 
@@ -74,7 +75,7 @@
 					</div>
 					<div class="amenities">
 						<h2>Amenities</h2>
-						<ul>
+						<ul aria>
 							<li class="tv">TV</li>
 							<li class="wifi">Wifi</li>
 							<li class="pets">Pets friendly</li>
