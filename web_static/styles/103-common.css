@@ -4,11 +4,9 @@ body {
 	color: #484848;
 	font-family: Circular,"Helvetica Neue",Helvetica,Arial,"sans-seriff";
 	font-size: 14px;
-	box-sizing: border-box;
 }
 .container {
 	max-width: 1000px;
 	margin: 30px auto;
-	position: relative;
-	bottom: 0;
+	overflow: auto;
 }

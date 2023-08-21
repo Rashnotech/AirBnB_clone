@@ -58,6 +58,10 @@ section > .amenities h4, section > .locations h4 {
 	width: inherit;
 	line-height: 1.5em;
 }
+ul li > p{
+	margin-left: 2rem;
+	line-height: 1.2rem;
+}
 .amenities .popover {
 	line-height: 1.5rem;
 }

@@ -68,10 +68,6 @@ section > .amenities h4, section > .locations h4 {
 section > .amenities:hover > .popover {
 	display: block;
 }
-ul li > p{
-        margin-left: 2rem;
-        line-height: 1.2rem;
-}
 
 @media screen and (min-width: 300px) and (max-width: 767px) {
 	* {
@@ -120,10 +116,6 @@ ul li > p{
 		padding: .5rem;
 		left: 0;
 		display: none;
-	}
-	ul li > p{
-		margin-left: 1rem;
-		line-height: 1rem;
 	}
 	.popover ul{
 		list-style-type: none;
