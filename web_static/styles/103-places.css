@@ -46,20 +46,11 @@ article h2 {
 .number_rooms, .number_bathrooms, .max_guest {
 	width: 100px;
 	height: 100%;
-	background-repeat: no-repeat;
-	background-position: top center;
 	display: flex;
-	align-items: end;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
-}
-.number_rooms {
-	background-image: url('../images/icon_bed.png');
-}
-.max_guest {
-	background-image: url('../images/icon_group.png');
-}
-.number_bathrooms {
-	background-image: url('../images/icon_bath.png');
+	line-height: .5rem;
 }
 .user {
 	margin-top: 1rem;
